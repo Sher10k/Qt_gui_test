@@ -34,7 +34,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 CONFIG      += link_pkgconfig
 PKGCONFIG   += eigen3
 PKGCONFIG   *= opencv4
-PKGCONFIG   *= zcm
+#PKGCONFIG   *= zcm
 
-INCLUDEPATH += /home/roman/zcm_types_niias/zcm_types_534_loco/camera_basler/cpp_types \
-               /home/roman/zcm_types_niias/zcm_types_534_loco/service/cpp_types
+#INCLUDEPATH += /home/roman/zcm_types_niias/zcm_types_534_loco/camera_basler/cpp_types \
+#               /home/roman/zcm_types_niias/zcm_types_534_loco/service/cpp_types

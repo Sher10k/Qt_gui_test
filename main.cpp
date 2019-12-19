@@ -11,7 +11,7 @@
 #include <opencv2/highgui.hpp>
 
 // ZCM
-#include "ZcmCameraBaslerJpegFrame.hpp"
+//#include "ZcmCameraBaslerJpegFrame.hpp"
 
 using namespace std;
 using namespace cv;
