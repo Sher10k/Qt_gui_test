@@ -16,7 +16,15 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-//    cv::Mat img = cv::imread( "/home/roman/Qt_gui_test/gui_test/Beginner-Class-Hierarchy.jpg");
+    cv::Mat img = cv::imread( "/home/roman/Qt_gui_test/gui_test/Beginner-Class-Hierarchy.jpg");
+    
+    cv::cvtColor( img, img, cv::COLOR_BGR2RGB);
+    
+    QImage qimg = QImage( (const unsigned char*)(img.data), 
+                          img.cols,
+                          img.rows,
+                          QImage::Format_RGB888 );
+    
 //    cv::imshow( "img", img );
 //    cv::waitKey(30);
 }

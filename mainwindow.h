@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 #include <QWidget>
+#include <QGraphicsScene>
+#include <QImage>
+#include <QPixmap>
 
 // Opencv 4.1.0
 #include <opencv2/opencv.hpp>
